@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_productsFragment">
+
+    <fragment
+        android:id="@+id/nav_perfil"
+        android:name="com.gilsoft.agencetest.ui.perfil.PerfilFragment"
+        android:label="@string/perfil"
+        tools:layout="@layout/perfil_fragment" />
+
+    <fragment
+        android:id="@+id/nav_myproducts"
+        android:name="com.gilsoft.agencetest.ui.myproducts.MyProductsFragment"
+        android:label="@string/my_products"
+        tools:layout="@layout/myproducts_fragment" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.gilsoft.agencetest.ui.setting.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/settings_fragment" />
+    <fragment
+        android:id="@+id/nav_productsFragment"
+        android:name="com.gilsoft.agencetest.ui.products.ProductsFragment"
+        android:label="@string/products_list"
+        tools:layout="@layout/products_fragment" >
+        <action
+            android:id="@+id/go_detailProductFragment"
+            app:destination="@id/nav_detailProductFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_detailProductFragment"
+        android:name="com.gilsoft.agencetest.ui.products.DetailProductFragment"
+        android:label="@string/product_detail"
+        tools:layout="@layout/detail_product_fragment" />
+</navigation>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AgenceTest</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="perfil">Perfil</string>
+    <string name="my_products">Mis Productos</string>
+    <string name="settings">Configuraciones</string>
+    <string name="close">Cerrar sesión</string>
+    <string name="products_list">Listado de Productos</string>
+    <string name="user">Usuario</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="password">Contraseña</string>
+    <string name="login_normal">Iniciar Sesion</string>
+    <string name="exit">Salir</string>
+    <string name="i_forget_mypassword">Olvidé mi contraseña</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="buy">Comprar</string>
+    <string name="product_detail">Detalles del Producto</string>
+</resources>
