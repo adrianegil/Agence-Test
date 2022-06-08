@@ -1,5 +1,7 @@
 package com.gilsoft.agencetest.entity
 
-data class Product(val id: Int, val title: String, val description: String) {
+import java.io.Serializable
+
+data class Product(var id: Int, var title: String, var description: String): Serializable {
 
 }

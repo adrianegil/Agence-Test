@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/draw"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.LoginActivity">
@@ -118,59 +119,55 @@
                 app:layout_constraintStart_toStartOf="@+id/textInputLayoutUserPassword"
                 app:layout_constraintTop_toBottomOf="@+id/textInputLayoutUserPassword" />
 
-
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/materialButton2"
+                android:id="@+id/buttonLogInNormal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="16dp"
-                android:onClick="logIn"
                 android:text="@string/login_normal"
-                app:cornerRadius="10dp"
+                app:cornerRadius="5dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/materialButton3"
-                tools:ignore="UsingOnClickInXml" />
+                app:layout_constraintTop_toBottomOf="@+id/materialButton3" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/materialButton4"
+                android:id="@+id/buttonLogInFacebook"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="0dp"
                 android:layout_marginEnd="16dp"
-                android:backgroundTint="@android:color/holo_blue_light"
-                android:onClick="logIn"
+                android:backgroundTint="@color/blue_facebook"
+                android:drawableEnd="@drawable/ic_facebook"
                 android:text="Iniciar con Facebook"
-                app:cornerRadius="10dp"
+                app:cornerRadius="5dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/materialButton2"
-                tools:ignore="UsingOnClickInXml" />
+                app:layout_constraintTop_toBottomOf="@+id/buttonLogInNormal" />
 
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/materialButton5"
+                android:id="@+id/buttonLogInGoogle"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="0dp"
-                android:layout_marginBottom="8dp"
                 android:layout_marginEnd="16dp"
-                android:backgroundTint="@android:color/holo_blue_dark"
-                android:onClick="logIn"
-                android:text="Iniciar con Google"
-                app:cornerRadius="10dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@android:color/white"
+                android:drawableEnd="@drawable/google1"
+                android:text="Inciar con Google"
+                android:textColor="@color/blue_google"
+                app:cornerRadius="5dp"
+                app:strokeColor="@color/blue_google"
+                app:strokeWidth="1dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/materialButton4"
-                tools:ignore="UsingOnClickInXml" />
+                app:layout_constraintTop_toBottomOf="@+id/buttonLogInFacebook" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

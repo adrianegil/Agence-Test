@@ -10,6 +10,8 @@
         <entry key="..\:/Projects/Android/AgenceTest/app/src/main/res/drawable/gradient_toolbar.xml" value="0.152" />
         <entry key="..\:/Projects/Android/AgenceTest/app/src/main/res/drawable/ic_account.xml" value="0.152" />
         <entry key="..\:/Projects/Android/AgenceTest/app/src/main/res/drawable/ic_account_circle_primary.xml" value="0.152" />
+        <entry key="..\:/Projects/Android/AgenceTest/app/src/main/res/drawable/ic_facebook.xml" value="0.16" />
+        <entry key="..\:/Projects/Android/AgenceTest/app/src/main/res/drawable/ic_google.xml" value="0.16" />
         <entry key="..\:/Projects/Android/AgenceTest/app/src/main/res/drawable/ic_key_gray.xml" value="0.152" />
         <entry key="..\:/Projects/Android/AgenceTest/app/src/main/res/drawable/ic_key_primary.xml" value="0.152" />
         <entry key="..\:/Projects/Android/AgenceTest/app/src/main/res/drawable/ic_launcher_background.xml" value="0.152" />
@@ -19,8 +21,9 @@
         <entry key="..\:/Projects/Android/AgenceTest/app/src/main/res/drawable/selector_ic_lock.xml" value="0.152" />
         <entry key="..\:/Projects/Android/AgenceTest/app/src/main/res/drawable/side_nav_bar.xml" value="0.152" />
         <entry key="..\:/Projects/Android/AgenceTest/app/src/main/res/layout-land/activity_login.xml" value="0.2171875" />
-        <entry key="..\:/Projects/Android/AgenceTest/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Projects/Android/AgenceTest/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Projects/Android/AgenceTest/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/Android/AgenceTest/app/src/main/res/layout/activity_map_fragment.xml" value="0.11342592592592593" />
         <entry key="..\:/Projects/Android/AgenceTest/app/src/main/res/layout/app_bar_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Projects/Android/AgenceTest/app/src/main/res/layout/content_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Projects/Android/AgenceTest/app/src/main/res/layout/detail_product_fragment.xml" value="0.25" />

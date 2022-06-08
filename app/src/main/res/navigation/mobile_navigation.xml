@@ -35,5 +35,9 @@
         android:id="@+id/nav_detailProductFragment"
         android:name="com.gilsoft.agencetest.ui.products.DetailProductFragment"
         android:label="@string/product_detail"
-        tools:layout="@layout/detail_product_fragment" />
+        tools:layout="@layout/detail_product_fragment" >
+        <argument
+            android:name="Product"
+            app:argType="com.gilsoft.agencetest.entity.Product" />
+    </fragment>
 </navigation>

@@ -18,8 +18,19 @@
     <string name="login_normal">Iniciar Sesion</string>
     <string name="exit">Salir</string>
     <string name="i_forget_mypassword">Olvidé mi contraseña</string>
-<!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="buy">Comprar</string>
     <string name="product_detail">Detalles del Producto</string>
+    <string name="cancel">Cancelar</string>
+    <string name="buy_confirm_correct">La compra se realizó correctamente</string>
+    <string name="yes">Si</string>
+    <string name="confirm_buy_again">Desea comprar este producto</string>
+    <string name="confirm_buy">Confirmar Compra</string>
+
+    <string name="facebook_app_id">1057621248170273</string>
+    <string name="fb_login_protocol_scheme">fb1057621248170273</string>
+    <string name="facebook_client_token">e4325a9abd2c7b1014d67124f07dda7b</string>
+
+
 </resources>
